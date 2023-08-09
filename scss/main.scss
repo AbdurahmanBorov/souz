@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2.section-title {
+    font-size: 45px;
+}
+
+.read-more {
+    cursor: pointer;
+    color: #4E8AFF;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn {
+    color: #FFB703;
+    border: 3px solid #FFB703;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.5px;
+    padding: 19px 40px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background: #FFB703;
+        color: #fff;
+    }
+}
+
+
+.gallery__wrapper {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.btn {
+    position: absolute;
+    border-radius: 100%;
+    border: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery .slick-dots {
+    bottom: -60px;
+}
+
+.slick-dots ul {
+    list-style: none;
+}
+
+.slick-dots .slick-active button {
+    background-color: #2E6EFF;
+}
+
+.slick-dots li button {
+    background-color: #EDEDED;
+    font-size: 0;
+    border-radius: 50%;
+}
+
+.slick-dots li button :hover {
+    background-color: gray;
+}
+
+.gallery__img {
+    position: relative;
+    /* background-image: url("../img/image\ 5.png"); */
+}
+
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/documents';
+@import 'components/projects';
+@import 'components/project-card';
+@import 'components/writers-card';
+@import 'components/writers';
+@import 'components/works';
+@import 'components/work-card';
+@import 'components/about-us';
+@import 'components/homepage';
